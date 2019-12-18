@@ -1,0 +1,6 @@
+from book_app.models import *
+category = Category(title='Daniel Defo')
+author = Author.objects.create(fullname='Daniel Defoe',gender=1,birthday='birthday',birthday='British',info='[some text]')
+
+
+book = Book.objects.create(title='Robinson Crusoe',author=a2,description='[some text]',price=12.5,page_count=210)
